@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PostImgLink">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imgLink" Type="text" />
+    <Property Name="idPost" Type="text" />
+  </EntityType>
+  <EntityType Name="PostLink">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Link" Type="text" />
+    <Property Name="idPost" Type="text" />
+  </EntityType>
+  <EntityType Name="PostText">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idPost" Type="text" />
+    <Property Name="text" Type="text" />
+  </EntityType>
+  <EntityContainer Name="Хранилище Database1ModelContainer">
+    <EntitySet Name="PostImgLink" EntityType="Self.PostImgLink" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostLink" EntityType="Self.PostLink" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostText" EntityType="Self.PostText" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

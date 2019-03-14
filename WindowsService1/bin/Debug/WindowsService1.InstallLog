@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service ParcerTest...
+Service ParcerTest has been successfully installed.
+Creating EventLog source ParcerTest in log Application...
+Committing assembly 'C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\Users\apcxo\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe

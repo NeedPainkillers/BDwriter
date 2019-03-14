@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities">
+    <EntitySetMapping Name="PostImgLinks">
+      <EntityTypeMapping TypeName="Database1Model.PostImgLink">
+        <MappingFragment StoreEntitySet="PostImgLink">
+          <ScalarProperty Name="idPost" ColumnName="idPost" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="imgLink" ColumnName="imgLink" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostLinks">
+      <EntityTypeMapping TypeName="Database1Model.PostLink">
+        <MappingFragment StoreEntitySet="PostLink">
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="idPost" ColumnName="idPost" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostTexts">
+      <EntityTypeMapping TypeName="Database1Model.PostText">
+        <MappingFragment StoreEntitySet="PostText">
+          <ScalarProperty Name="idPost" ColumnName="idPost" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
